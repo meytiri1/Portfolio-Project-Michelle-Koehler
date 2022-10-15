@@ -1,0 +1,22 @@
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+  --accent-color: ;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Asap", sans-serif;
+  font-size: 6.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.625rem;
+}
