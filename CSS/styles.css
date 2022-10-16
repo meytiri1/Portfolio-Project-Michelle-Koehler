@@ -1,7 +1,9 @@
 :root {
-  --primary-color: ;
-  --secondary-color: ;
-  --accent-color: ;
+  --primary-color: #ffbbf4;
+  --secondary-color: #faffd2;
+  --accent-color: #f5deb3;
+  --gradient-color: linear-gradient(180deg, #ffbbf4, #faffd2);
+  --box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -18,5 +20,60 @@ h2 {
 }
 
 h3 {
+  color: #565656;
   font-size: 1.625rem;
+}
+
+.primary-button {
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  font-size: 1.375em;
+  padding: 10px 64px;
+  text-decoration: none;
+}
+
+.secondary-button {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: #000;
+  font-size: 1.375em;
+  padding: 10px 38px;
+  text-decoration: none;
+}
+
+.container.hero-page {
+  background: var(--gradient-color);
+  display: block;
+  margin: 0;
+  max-width: 100%;
+}
+
+.hero-section {
+  display: block;
+  margin: 13.375rem 23.69rem 8.69rem 5.38rem;
+  max-width: 46rem;
+}
+
+.triangle {
+  position: relative;
+  background: var(--secondary-color);
+  height: 1vh;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 55px 0 55px;
+  border-color: var(--secondary-color) transparent transparent transparent;
+  left: 20%;
+  transform: translateX(-50%) translateY(100%);
 }
