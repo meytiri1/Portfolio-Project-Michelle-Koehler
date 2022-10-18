@@ -3,25 +3,32 @@
   --secondary-color: #faffd2;
   --accent-color: #f5deb3;
   --gradient-color: linear-gradient(180deg, #ffbbf4, #faffd2);
-  --box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
 }
 
 body {
   font-family: "PT Sans", sans-serif;
 }
 
+nav {
+  background-color: var(--primary-color);
+}
+
 h1 {
   font-family: "Asap", sans-serif;
   font-size: 6.75rem;
+  margin: 0 0 0 -0.5rem;
 }
 
 h2 {
   font-size: 1.25rem;
+  margin: 0;
 }
 
 h3 {
   color: #565656;
   font-size: 1.625rem;
+  margin: 0;
 }
 
 .primary-button {
@@ -54,18 +61,43 @@ h3 {
 }
 
 .hero-section {
-  display: block;
   margin: 13.375rem 23.69rem 8.69rem 5.38rem;
-  max-width: 46rem;
+}
+.hero-section::after {
+  clear: both;
+  content: " ";
+  display: table;
 }
 
-.triangle {
+.hero-section-container {
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  width: 80%;
+  z-index: 1;
+}
+.diamonds {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  margin: -14rem 0 0 30rem;
+  transform: scale(0.7);
+}
+
+.hero-links {
+  margin-top: 1.81rem;
+}
+
+.project-btn {
+  margin-right: 4.06rem;
+}
+
+.triangle1 {
   position: relative;
   background: var(--secondary-color);
   height: 1vh;
 }
 
-.triangle::before {
+.triangle1::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -74,6 +106,6 @@ h3 {
   border-style: solid;
   border-width: 55px 55px 0 55px;
   border-color: var(--secondary-color) transparent transparent transparent;
-  left: 20%;
+  left: 18%;
   transform: translateX(-50%) translateY(100%);
 }
