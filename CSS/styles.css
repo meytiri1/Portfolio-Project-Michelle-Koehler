@@ -110,6 +110,7 @@ li.nav-item:focus {
 
 .about-me-page h1 {
   font-size: 4rem;
+  font-family: "Asap", sans-serif;
   margin: 8rem auto 3rem auto;
 }
 
@@ -128,7 +129,15 @@ li.nav-item:focus {
 .profile-pic {
   border-radius: 50%;
   display: block;
-  height: auto;
+  height: 23rem;
   margin: auto;
   max-width: 23rem;
+}
+
+.skills-box {
+  background-color: var(--secondary-color);
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin: 2rem 0 3rem 0;
+  max-width: 35%;
 }
