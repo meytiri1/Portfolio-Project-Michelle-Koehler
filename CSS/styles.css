@@ -108,10 +108,10 @@ li.nav-item:focus {
   transform: translateX(-50%) translateY(100%);
 }
 
-.about-me-page h1 {
+.about-me-page h2 {
   font-size: 4rem;
   font-family: "Asap", sans-serif;
-  margin: 8rem auto 3rem auto;
+  margin: 8rem auto 1rem auto;
 }
 
 .about-text {
@@ -132,6 +132,11 @@ li.nav-item:focus {
   height: 23rem;
   margin: auto;
   max-width: 23rem;
+  padding-top: 1rem;
+}
+
+.skills.container {
+  padding-left: 0;
 }
 
 .skills-box {
@@ -140,4 +145,23 @@ li.nav-item:focus {
   border-radius: 4px;
   margin: 2rem 0 3rem 0;
   max-width: 35%;
+}
+
+.triangle2 {
+  position: relative;
+  background: #fff;
+  height: 1vh;
+}
+
+.triangle2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 55px 0 55px;
+  border-color: #fff transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
 }
