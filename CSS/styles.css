@@ -29,18 +29,18 @@ li.nav-item:focus {
   color: #fff;
 }
 
-h1 {
+.hero-page h1 {
   font-family: "Asap", sans-serif;
   font-size: 6.75rem;
   margin: 0 0 0 -0.5rem;
 }
 
-h2 {
+.hero-page h2 {
   font-size: 1.25rem;
   margin: 0;
 }
 
-h3 {
+.hero-page h3 {
   color: #565656;
   font-size: 1.625rem;
   margin: 0;
@@ -82,7 +82,7 @@ h3 {
 }
 
 .hero-links {
-  margin-top: 1.81rem;
+  margin-top: 3rem;
 }
 
 .project-btn {
@@ -106,4 +106,29 @@ h3 {
   border-color: var(--secondary-color) transparent transparent transparent;
   left: 18%;
   transform: translateX(-50%) translateY(100%);
+}
+
+.about-me-page h1 {
+  font-size: 4rem;
+  margin: 8rem auto 3rem auto;
+}
+
+.about-text {
+  font-size: 20px;
+  padding-left: 0;
+  text-align: justify;
+}
+
+.profile-pic-border {
+  background: var(--gradient-color);
+  border-radius: 50%;
+  height: 24rem;
+  max-width: 24rem;
+}
+.profile-pic {
+  border-radius: 50%;
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 23rem;
 }
