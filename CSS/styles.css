@@ -3,7 +3,7 @@
   --secondary-color: #faffd2;
   --accent-color: #f5deb3;
   --gradient-color: linear-gradient(180deg, #ffbbf4, #faffd2);
-  --box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -196,4 +196,61 @@ li.nav-item:focus {
   display: block;
   margin: 0 auto;
   max-width: 85%;
+}
+
+.projects-container img:hover {
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-description {
+  display: block;
+  margin: 5rem auto;
+}
+
+.pj-description-container {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  margin: 4rem auto;
+  max-width: 50%;
+  padding: 2.13rem;
+}
+
+.pj-description-container h3 {
+  margin-bottom: 2rem;
+}
+
+.pj-description-container p {
+  margin-bottom: 2rem;
+}
+
+.triangle3 {
+  position: relative;
+  background: var(--primary-color);
+  height: 1vh;
+}
+
+.triangle3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 55px 0 55px;
+  border-color: var(--primary-color) transparent transparent transparent;
+  left: 82%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+.contact-me-section {
+  margin: 9rem 10.38rem;
+}
+
+.contact-me-page h2 {
+  font-size: 4rem;
+  font-family: "Asap", sans-serif;
+  margin: 8rem auto 1rem auto;
 }
