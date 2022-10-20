@@ -348,17 +348,57 @@ li.nav-item:focus {
 @media (max-width: 992px) {
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hero-section {
+    margin: 9rem 5rem;
+  }
+  .hero-page h1 {
+    font-size: 6rem;
+  }
+  .primary-button {
+    font-size: 1.1em;
+  }
+  .secondary-button {
+    font-size: 1.1em;
+  }
+  .about-me-section {
+    margin: 6rem 5rem;
+  }
+  p.about-text {
+    font-size: 15px;
+  }
+  .profile-pic-border {
+    height: 21em;
+    max-width: 21em;
+  }
+  .profile-pic {
+    height: 20rem;
+    margin: auto;
+    max-width: 20em;
+    padding-top: 1em;
+  }
+  .projects-section {
+    margin: 6rem 5rem;
+  }
+  .pj-description-container {
+    max-width: 60%;
+  }
+  .contact-me-section {
+    margin: 6rem 5rem;
+  }
+  .container.footer {
+    padding: 2rem 3rem 0 3rem;
+  }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .hero-section {
     margin: 9rem 8rem;
   }
   .about-me-section {
     margin: 9rem 8rem;
   }
-  .about-text {
+  p.about-text {
     font-size: 18px;
   }
   .profile-pic-border {
