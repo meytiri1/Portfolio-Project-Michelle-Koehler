@@ -148,16 +148,16 @@ li.nav-item:focus {
   background: var(--gradient-color);
   border-radius: 50%;
   box-shadow: var(--box-shadow);
-  height: 24rem;
-  max-width: 24rem;
+  height: 24em;
+  max-width: 24em;
 }
 .profile-pic {
   border-radius: 50%;
   display: block;
   height: 23rem;
   margin: auto;
-  max-width: 23rem;
-  padding-top: 1rem;
+  max-width: 23em;
+  padding-top: 1em;
 }
 
 .skills-box {
@@ -338,3 +338,46 @@ li.nav-item:focus {
 .footer-link:hover {
   color: var(--primary-color);
 }
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
+  .hero-section {
+    margin: 9rem 8rem;
+  }
+  .about-me-section {
+    margin: 9rem 8rem;
+  }
+  .about-text {
+    font-size: 18px;
+  }
+  .profile-pic-border {
+    height: 23.5em;
+    max-width: 24em;
+  }
+  .profile-pic {
+    padding-top: 0.5em;
+  }
+  .projects-section {
+    margin: 9rem 8rem;
+  }
+  .pj-description-container {
+    max-width: 60%;
+  }
+  .contact-me-section {
+    margin: 9rem 8rem;
+  }
+  .container.footer {
+    padding: 2rem 3rem 0 3rem;
+  }
+} ;
