@@ -112,6 +112,10 @@ li.nav-item:focus {
   transform: translateX(-50%) translateY(100%);
 }
 
+.about-section {
+  margin: 9rem 10.38rem;
+}
+
 .about-me-page h2 {
   font-size: 4rem;
   font-family: "Asap", sans-serif;
@@ -145,7 +149,7 @@ li.nav-item:focus {
   border: 1px solid #000;
   border-radius: 4px;
   box-shadow: var(--box-shadow);
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 0 5rem 0;
   max-width: 35%;
 }
 
@@ -168,16 +172,22 @@ li.nav-item:focus {
   transform: translateX(-50%) translateY(100%);
 }
 
-.projects-page {
+.container.projects-page {
   background-color: var(--primary-color);
-  max-width: 100%;
+  display: block;
   margin: 0;
+  max-width: 100%;
+  padding-top: 5rem;
+}
+
+.projects-section {
+  margin: 0 10.38rem;
 }
 
 .projects-section h2 {
   font-size: 4rem;
   font-family: "Asap", sans-serif;
-  margin: 8rem auto 1rem auto;
+  margin: 4.56rem auto 5rem auto;
 }
 
 .projects-container img {
@@ -185,5 +195,5 @@ li.nav-item:focus {
   box-shadow: var(--box-shadow);
   display: block;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 85%;
 }
