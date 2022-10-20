@@ -248,6 +248,10 @@ li.nav-item:focus {
   margin-bottom: 2rem;
 }
 
+.launch-button {
+  margin-top: 1.5rem;
+}
+
 .triangle3 {
   position: relative;
   background: var(--primary-color);
@@ -345,7 +349,67 @@ li.nav-item:focus {
 @media (max-width: 768px) {
 }
 
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  .hero-section {
+    margin: 9rem 4.5rem;
+  }
+  .hero-page h1 {
+    font-size: 5.5rem;
+  }
+  .hero-page h3 {
+    font-size: 1.3rem;
+  }
+  .primary-button {
+    font-size: 1em;
+  }
+  .secondary-button {
+    font-size: 1em;
+  }
+  .project-btn {
+    margin-right: 2.8rem;
+  }
+  .about-me-section {
+    margin: 5rem 4.5rem;
+  }
+  .about-me-page h2 {
+    margin: 0 0 3rem -0.5rem;
+  }
+  p.about-text {
+    font-size: 15px;
+  }
+  .profile-pic-border {
+    height: 15.5em;
+    max-width: 15.5em;
+  }
+  .profile-pic {
+    height: 15rem;
+    margin: auto;
+    max-width: 15em;
+    padding-top: 0.5em;
+  }
+  .skills-box {
+    max-width: 80%;
+  }
+  .projects-section {
+    margin: 5rem 4.5rem;
+  }
+  .pj-description-container {
+    max-width: 65%;
+  }
+  .pj-description-container p {
+    margin-bottom: 1.8rem;
+    font-size: 15px;
+  }
+  .contact-me-section {
+    margin: 5rem 4.5rem;
+  }
+  .container.footer {
+    font-size: 12px;
+    padding: 2rem 3rem 0 3rem;
+  }
+  .footer-icon {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -363,6 +427,9 @@ li.nav-item:focus {
   }
   .about-me-section {
     margin: 6rem 5rem;
+  }
+  .about-me-page h2 {
+    margin: 0 0 0 -0.5rem;
   }
   p.about-text {
     font-size: 15px;
@@ -387,7 +454,7 @@ li.nav-item:focus {
     margin: 6rem 5rem;
   }
   .container.footer {
-    font-size: 15px;
+    font-size: 13px;
     padding: 2rem 3rem 0 3rem;
   }
 }
