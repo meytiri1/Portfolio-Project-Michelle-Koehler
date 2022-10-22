@@ -69,6 +69,7 @@ li.nav-item:focus {
   font-size: 1.375em;
   padding: 10px 64px;
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .primary-button:hover {
@@ -86,6 +87,7 @@ li.nav-item:focus {
   font-size: 1.375em;
   padding: 10px 38px;
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .secondary-button:hover {
