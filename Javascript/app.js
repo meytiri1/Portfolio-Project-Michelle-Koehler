@@ -16,7 +16,7 @@ let allProjects = [
       name: "project2",
       title: "Weather app project",
       description:
-        "The weather app was the final project of the SheCodes Plus workshop. It included several steps, starting with wireframing and predesigning the app's user interface. The following steps included building the HTML of the website and styling it with CSS. Afterwards, I learned advanced vanilla Javascript techniques, including fetching APIs online using Axios and implementing their data accordingly within logical functions to build a daily and a 5-day weather forecast based on any city entered within the search engine. Over the course of the project, a Githhub repository was created and updates in the code were commited and pushed regularly. As part of the last step, the weather app was hosted on Netlify, to be globally available.",
+        "The weather app was the final project of the SheCodes Plus workshop. It included several steps, starting with wireframing and predesigning the app's user interface. The following steps included building the HTML of the website and styling it with CSS. Afterwards, I learned advanced vanilla Javascript techniques, including fetching APIs online using AJAX and implementing their data accordingly within logical functions to build a daily and a 5-day weather forecast based on any city entered within the search engine. Over the course of the project, a Githhub repository was created and updates in the code were commited and pushed regularly. As part of the last step, the weather app was hosted on Netlify, to be globally available.",
       tools: "InVision, HTML, CSS, Javascript, GitHub, Netlify",
       button: "Launch Weather App project",
       address:
