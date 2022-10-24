@@ -106,12 +106,11 @@ window.onscroll = () => {
     let offset = sec.offsetTop;
     let height = sec.offsetHeight;
     let id = sec.getAttribute("id");
-    console.log(id);
 
     if (top >= offset && top < offset + height) {
       let target = document.querySelector(
-        `[href="/index.html#${id}"]`
-      ).parentElement;
+        `[href="index.html#${id}"]`
+      ).parentNode;
 
       activeLink(target);
     }
