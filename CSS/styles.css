@@ -457,6 +457,7 @@ li.nav-item:focus {
 
 .pj-description-container p {
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .launch-button {
