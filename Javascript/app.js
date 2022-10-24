@@ -28,7 +28,7 @@ let allProjects = [
       name: "project3",
       title: "Portfolio project",
       description:
-        "The third main project from the SheCodes Responsive workshop was this portfolio website. Despite receiving an example portfolio, I decided to design and build mine all by myself. I started out with a wireframe and transferred it to an elaborate design on Figma. The next step included building the basic HTML and CSS of this portfolio website. For my last steps, I inclduded Javascript for functionality of the project overview and made the website SEO friendly. The project is available on GitHub and hostet via Netlify.",
+        "The third main project from the SheCodes Responsive workshop was this portfolio website. Despite receiving an example portfolio, I decided to design and build mine all by myself. I started out with a wireframe and transferred it to an elaborate design on Figma. The next step included building the basic HTML and CSS of this portfolio website. For my last steps, I inclduded Javascript for functionality of the project overview and made the website SEO friendly. The project is available on GitHub and hostet via Netlify. The main goal of this website was responsiveness over all screen sizes.",
       tools: "InVision, Figma, HTML, CSS, Javascript, Github, Netlify",
       button: "Launch Portfolio project",
       address: "#",
