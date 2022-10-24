@@ -14,20 +14,25 @@ nav {
   background-color: var(--primary-color);
 }
 
-li.nav-item {
+a.nav-link {
+  border: 1px solid transparent;
+  border-radius: 4px;
   line-height: 1rem;
-  margin: 0 0.5rem;
-  padding: 0.125rem 0.625rem;
-  transition: all 200ms ease-in;
+  margin: 0 1em;
+  padding: 0.3rem 1rem;
 }
-li.nav-item:hover {
+a.nav-link:hover {
   border: 1px solid #000;
   border-radius: 4px;
 }
-li.nav-item:focus {
-  background: #000;
+a.nav-link.active {
+  background: #fff;
+  border: 1px solid #000;
   border-radius: 4px;
-  color: #fff;
+  color: #000;
+  line-height: 1rem;
+  margin: 0 1em;
+  padding: 0.3rem 1rem;
 }
 
 @keyframes move {
