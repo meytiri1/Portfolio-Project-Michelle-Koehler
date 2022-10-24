@@ -1,3 +1,4 @@
+//Change Project descriptions://
 let allProjects = [
   {
     project: {
@@ -85,3 +86,34 @@ pj2.addEventListener("click", changeProject2Description);
 pj3.addEventListener("click", changeProject3Description);
 
 changeProject1Description();
+
+//Change nav bar active link://
+let section = document.querySelectorAll(".section");
+let lists = document.querySelectorAll(".nav-link");
+function activeLink(li) {
+  lists.forEach((item) => item.classList.remove("active"));
+  li.classList.add("active");
+}
+lists.forEach((item) =>
+  item.addEventListener("click", function () {
+    activeLink(this);
+  })
+);
+
+window.onscroll = () => {
+  section.forEach((sec) => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute("id");
+    console.log(id);
+
+    if (top >= offset && top < offset + height) {
+      let target = document.querySelector(
+        `[href="/index.html#${id}"]`
+      ).parentElement;
+
+      activeLink(target);
+    }
+  });
+};
