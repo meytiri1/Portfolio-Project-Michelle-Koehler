@@ -321,7 +321,7 @@ a.nav-link.active {
 .triangle1 {
   position: relative;
   background: var(--primary-color);
-  height: 1vh;
+  height: 5vh;
 }
 
 .triangle1::before {
@@ -329,7 +329,7 @@ a.nav-link.active {
   position: absolute;
   bottom: 0;
   width: 0;
-  height: 0;
+  height: 1vh;
   border-style: solid;
   border-width: 55px 55px 0 55px;
   border-color: var(--primary-color) transparent transparent transparent;
@@ -397,7 +397,7 @@ a.nav-link.active {
   position: absolute;
   bottom: 0;
   width: 0;
-  height: 0;
+  height: 1vh;
   border-style: solid;
   border-width: 55px 55px 0 55px;
   border-color: #fff transparent transparent transparent;
@@ -477,7 +477,7 @@ a.nav-link.active {
   position: absolute;
   bottom: 0;
   width: 0;
-  height: 0;
+  height: 1vh;
   border-style: solid;
   border-width: 55px 55px 0 55px;
   border-color: var(--primary-color) transparent transparent transparent;
@@ -689,6 +689,9 @@ a.reference-link {
   .contact-link {
     font-size: 1rem;
   }
+  p.reference {
+    font-size: 8px;
+  }
   .container.footer {
     font-size: 10px;
     padding: 1.5rem;
@@ -772,6 +775,9 @@ a.reference-link {
   }
   .contact-me-section {
     margin: 5rem 4.5rem;
+  }
+  p.reference {
+    font-size: 8px;
   }
   .container.footer {
     font-size: 12px;
