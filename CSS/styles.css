@@ -571,7 +571,20 @@ a.reference-link {
   color: var(--primary-color);
 }
 
+/*CV page*/
+.cv-section {
+  margin: 9rem 15rem;
+}
+.cv-section h1 {
+  font-size: 4rem;
+  font-family: "Asap", sans-serif;
+  margin: 8rem auto 5rem auto;
+}
+.certificates {
+  margin-top: 4rem;
+}
 .certificates img {
+  margin-top: 1rem;
   max-width: 80%;
 }
 
