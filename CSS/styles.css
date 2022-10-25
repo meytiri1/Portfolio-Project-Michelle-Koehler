@@ -386,10 +386,6 @@ a.nav-link.active {
   max-width: 100%;
 }
 
-.skills img {
-  max-width: 80%;
-}
-
 .triangle2 {
   position: relative;
   background: #fff;
@@ -573,6 +569,10 @@ a.reference-link {
 
 .footer-link:hover {
   color: var(--primary-color);
+}
+
+.certificates img {
+  max-width: 80%;
 }
 
 @media (max-width: 576px) {
