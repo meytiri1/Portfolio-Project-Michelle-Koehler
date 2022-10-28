@@ -586,7 +586,7 @@ a.reference-link {
 .certificates img {
   box-shadow: var(--box-shadow);
   margin-top: 1rem;
-  max-width: 80%;
+  max-width: 100%;
   transition: all 250ms ease-in-out;
 }
 
@@ -698,7 +698,7 @@ a.reference-link {
     font-size: 1rem;
   }
   p.reference {
-    font-size: 8px;
+    font-size: 9px;
   }
   .container.footer {
     font-size: 10px;
@@ -711,6 +711,25 @@ a.reference-link {
   .footer-icon {
     font-size: 1.2rem;
     margin: 0 1rem 1rem 0;
+  }
+  .cv-section {
+    margin: 5rem 0;
+    padding: 0 1.5rem;
+  }
+  .cv-section h1 {
+    font-size: 3.5rem;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .certificates {
+    margin-top: 3.5rem;
+  }
+  .certificates img {
+    max-width: 100%;
+  }
+  .certificates img:hover {
+    transform: none;
   }
 }
 
@@ -785,7 +804,7 @@ a.reference-link {
     margin: 5rem 4.5rem;
   }
   p.reference {
-    font-size: 8px;
+    font-size: 9px;
   }
   .container.footer {
     font-size: 12px;
@@ -793,6 +812,24 @@ a.reference-link {
   }
   .footer-icon {
     font-size: 1.5rem;
+  }
+  .cv-section {
+    margin: 5rem 0rem;
+  }
+  .cv-section h1 {
+    font-size: 3.5rem;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .certificates {
+    margin-top: 4rem;
+  }
+  .certificates img {
+    max-width: 100%;
+  }
+  .certificates img:hover {
+    transform: none;
   }
 }
 
@@ -857,6 +894,22 @@ a.reference-link {
   .footer-icon {
     font-size: 1.5rem;
   }
+  .cv-section {
+    margin: 5rem 1rem;
+  }
+  .cv-section h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .certificates {
+    margin-top: 4rem;
+  }
+  .certificates img {
+    max-width: 80%;
+  }
+  .certificates img:hover {
+    transform: none;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -904,6 +957,19 @@ a.reference-link {
     font-size: 13px;
     padding: 2rem 3rem 0 3rem;
   }
+  .cv-section {
+    margin: 6rem 5rem;
+  }
+  .cv-section h1 {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .certificates {
+    margin-top: 5rem;
+  }
+  .certificates img {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -935,4 +1001,17 @@ a.reference-link {
   .container.footer {
     padding: 2rem 3rem 0 3rem;
   }
-} ;
+  .cv-section {
+    margin: 9rem 8rem;
+  }
+  .cv-section h1 {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .certificates {
+    margin-top: 5rem;
+  }
+  .certificates img {
+    max-width: 100%;
+  }
+}
