@@ -537,7 +537,7 @@ a.nav-link.active {
 }
 
 .contact-btn {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 p.reference {
@@ -553,7 +553,7 @@ a.reference-link {
   text-decoration: none;
 }
 .reference-link:hover {
-  color: var(--primary-color);
+  color: var(--accent-color-2);
 }
 
 .container.footer {
