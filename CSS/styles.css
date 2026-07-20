@@ -369,20 +369,19 @@ a.nav-link.active {
   text-align: justify;
 }
 
-.profile-pic-border {
-  background: var(--gradient-color);
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  height: 24em;
-  max-width: 12em
-}
 .profile-pic {
-  border-radius: 15px;
-  display: block;
-  height: 23rem;
+  border-radius: 12px;
+  display:block;
   margin: 0 auto;
-  max-width: 23em;
-  padding: 1em 0 0 0;
+  max-width: 15.5em;
+  padding: 1em;
+  background: var(--gradient-color);
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+}
+
+img {
+  border-radius: 12px;
 }
 
 .skills-box {
