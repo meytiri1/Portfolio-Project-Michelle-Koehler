@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #FBACBE;
-  --secondary-color: #FDD8E1;
-  --accent-color-1: #FFEE99;
-  --accent-color-2: #B0D4BD;
-  --gradient-color: linear-gradient(180deg, #FBACBE, #FDD8E1);
+  --primary-color: #D9B8C4;
+  --secondary-color: #F1E4E9;
+  --accent-color-1: #F5EE9E;
+  --accent-color-2: #6DD3CE;
+  --gradient-color: linear-gradient(180deg, #D9B8C4, #F1E4E9);
   --box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
-  --button-color: #790137;
+  --button-color: #843B62;
   --text-color: #202020;
   --light-background: #F7FFF7;
 }
@@ -371,10 +371,10 @@ a.nav-link.active {
 
 .profile-pic-border {
   background: var(--gradient-color);
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: var(--box-shadow);
   height: 24em;
-  max-width: 24em;
+  max-width: 12em
 }
 .profile-pic {
   border-radius: 15px;
