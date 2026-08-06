@@ -31,7 +31,7 @@ let lastLessons = [
   {
     lesson: {
         platform: "Preply",
-        number: 32
+        number: 25
     },
   },
 ];

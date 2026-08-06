@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #D9B8C4;
-  --secondary-color: #F1E4E9;
-  --accent-color-1: #F5EE9E;
-  --accent-color-2: #6DD3CE;
-  --gradient-color: linear-gradient(180deg, #D9B8C4, #F1E4E9);
+  --primary-color: #D4DCFF;
+  --secondary-color: #ADB1FF;
+  --accent-color-1: #E8F8C1;
+  --accent-color-2: #ADFFF0;
+  --gradient-color: linear-gradient(180deg, #D4DCFF, #ADB1FF);
   --box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
-  --button-color: #843B62;
+  --button-color: #70B8FF;
   --text-color: #202020;
   --light-background: #F7FFF7;
 }
